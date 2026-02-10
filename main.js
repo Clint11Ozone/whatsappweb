@@ -12,9 +12,7 @@ const client = new Client({
     }),
     puppeteer: {
         headless: true, // or false if you want to see the browser
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-          cacheDirectory: '/tmp/puppeteer-cache', // Render-friendly temp path
-
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
 
