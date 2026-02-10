@@ -21,7 +21,6 @@ const client = new Client({
         executablePath: '/usr/bin/chromium-browser',
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        userDataDir: '/tmp/whatsapp-profile', // store session here
     }
 });
 
