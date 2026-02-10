@@ -10,9 +10,18 @@ const client = new Client({
     authStrategy: new LocalAuth({
         clientId: "main" // optional, useful if you want multiple sessions
     }),
-    puppeteer: {
-        headless: true, // or false if you want to see the browser
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+     puppeteer: {
+        headless: true,       // Render needs headless mode
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
+            '--no-zygote',
+            '--single-process', // important for Render
+            '--disable-gpu'
+        ]
     }
 });
 
