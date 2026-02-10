@@ -1,2 +1,3 @@
-2026/02/11-00:20:51.664 2a989d Creating DB /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/shared_proto_db/metadata since it was missing.
-2026/02/11-00:20:51.670 2a989d Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/shared_proto_db/metadata/MANIFEST-000001
+2026/02/11-00:34:57.296 2b38d6 Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/shared_proto_db/metadata/MANIFEST-000001
+2026/02/11-00:34:57.296 2b38d6 Recovering log #3
+2026/02/11-00:34:57.296 2b38d6 Reusing old log /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/shared_proto_db/metadata/000003.log 

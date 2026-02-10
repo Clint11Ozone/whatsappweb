@@ -1,2 +1,5 @@
-2026/02/11-00:20:53.103 2a989d Creating DB /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2026/02/11-00:20:53.106 2a989d Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/11-00:34:57.871 2b38c2 Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/11-00:34:57.871 2b38c2 Recovering log #37
+2026/02/11-00:34:57.901 2b38c2 Reusing old log /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000037.log 
+2026/02/11-00:34:57.902 2b38c2 Delete type=2 #38
+2026/02/11-00:34:57.902 2b38c2 Delete type=2 #35
