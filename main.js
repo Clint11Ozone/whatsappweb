@@ -17,19 +17,10 @@ const client = new Client({
     authStrategy: new LocalAuth({
         clientId: "main" // optional, useful if you want multiple sessions
     }),
-      puppeteer: {
-        executablePath: '/usr/bin/chromium-browser',
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    }
-});
-
-
-client.on('ready', () => {
-    console.log('Client is ready!');
-    clientReady = true;
-    qrCodeData = null;
-});
+    puppeteer: {
+        headless: true, // or false if you want to see the browser
+        args: ['--no-sandbox', '--disable-setuid-sandbox']}
+    });
 
 client.on('qr', qr => {
     console.log('QR Code received');
