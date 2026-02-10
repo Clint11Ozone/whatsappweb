@@ -8,11 +8,19 @@ const appStartTimestampSec = Math.floor(Date.now() / 1000);
 
 const client = new Client({
     authStrategy: new LocalAuth({
-        clientId: "main" // optional, useful if you want multiple sessions
+        clientId: "main", // optional, useful if you want multiple sessions,
+        dataPath: "./wwebjs_auth_render"      // fresh folder on Render
+
     }),
     puppeteer: {
-        headless: true, // or false if you want to see the browser
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        headless: true,                        // required for server environments
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--single-process',
+            '--disable-gpu'
+        ]
     }
 });
 
@@ -22,7 +30,7 @@ client.on('ready', () => {
 });
 
 client.on('qr', qr => {
-    qrcode.generate(qr, {small: true});
+    qrcode.generate(qr, { small: true });
 });
 
 // Listening to all incoming messages
@@ -32,11 +40,11 @@ client.on('message', async message => {
         return;
     }
 
-	console.log(message.body);
+    console.log(message.body);
     if (message.body === '!ping') {
-		// send back "pong" to the chat the message was sent in
-		client.sendMessage(message.from, 'pong');
-	}
+        // send back "pong" to the chat the message was sent in
+        client.sendMessage(message.from, 'pong');
+    }
     // Send webhook only for messages sent by you to avoid duplicates
     const webhookUrl = "https://n8n-host-o8oa.onrender.com/webhook/whatsapp";
     if (webhookUrl && message.body && message.from) {
