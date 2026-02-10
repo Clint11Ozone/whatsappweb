@@ -1,14 +1,2 @@
-2026/02/10-23:24:49.622 284810 Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/10-23:24:49.624 284810 Recovering log #40
-2026/02/10-23:24:49.688 284810 Reusing old log /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000040.log 
-2026/02/10-23:25:16.738 284812 Level-0 table #46: started
-2026/02/10-23:25:16.769 284812 Level-0 table #46: 1214532 bytes OK
-2026/02/10-23:25:16.771 284812 Delete type=0 #40
-2026/02/10-23:25:53.057 284812 Compacting 1@1 + 2@2 files
-2026/02/10-23:25:53.276 284812 Generated table #47@1: 54390 keys, 2219842 bytes
-2026/02/10-23:25:53.295 284812 Generated table #48@1: 10320 keys, 346167 bytes
-2026/02/10-23:25:53.295 284812 Compacted 1@1 + 2@2 files => 2566009 bytes
-2026/02/10-23:25:53.305 284812 compacted to: files[ 0 0 2 0 0 0 0 ]
-2026/02/10-23:25:53.308 284812 Delete type=2 #43
-2026/02/10-23:25:53.308 284812 Delete type=2 #42
-2026/02/10-23:25:53.308 284812 Delete type=2 #46
+2026/02/11-00:20:53.103 2a989d Creating DB /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2026/02/11-00:20:53.106 2a989d Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001

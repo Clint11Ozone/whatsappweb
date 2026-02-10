@@ -1,3 +1,2 @@
-2026/02/10-23:24:48.615 28486a Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/10-23:24:48.621 28486a Recovering log #4
-2026/02/10-23:24:48.621 28486a Reusing old log /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Local Storage/leveldb/000004.log 
+2026/02/11-00:20:51.525 2a9901 Creating DB /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Local Storage/leveldb since it was missing.
+2026/02/11-00:20:51.533 2a9901 Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Local Storage/leveldb/MANIFEST-000001

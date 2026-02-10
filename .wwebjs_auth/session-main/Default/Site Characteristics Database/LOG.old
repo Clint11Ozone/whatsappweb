@@ -1,3 +1,2 @@
-2026/02/10-23:24:48.569 284823 Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Site Characteristics Database/MANIFEST-000001
-2026/02/10-23:24:48.570 284823 Recovering log #3
-2026/02/10-23:24:48.570 284823 Reusing old log /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Site Characteristics Database/000003.log 
+2026/02/11-00:20:51.464 2a989d Creating DB /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Site Characteristics Database since it was missing.
+2026/02/11-00:20:51.471 2a989d Reusing MANIFEST /Users/clints/Desktop/projects/JavascriptProjects/WhatsappJS/.wwebjs_auth/session-main/Default/Site Characteristics Database/MANIFEST-000001
